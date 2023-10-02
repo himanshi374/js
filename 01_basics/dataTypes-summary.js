@@ -36,3 +36,12 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+
+
+/////// stack(primitive) Heap(refrence)
+
+let myYoutubeName = "himanshidotcom"
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+console.log(myYoutubeName);
+console.log(anotherName);
